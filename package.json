@@ -1,0 +1,13 @@
+{
+  "scripts": {},
+  "workspaces": {
+    "packages": [
+      "app",
+      "packages/*"
+    ]
+  },
+  "engines": {
+    "node": ">=12.14.0",
+    "yarn": ">1.21"
+  }
+}

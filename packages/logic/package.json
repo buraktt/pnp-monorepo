@@ -1,0 +1,9 @@
+{
+  "name": "@monorepo/logic",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@monorepo/ui": "*",
+    "react": "*",
+    "react-refresh": "*"
+  }
+}
