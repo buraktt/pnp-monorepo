@@ -3,6 +3,7 @@
   "workspaces": {
     "packages": [
       "app",
+      "backend",
       "packages/*"
     ]
   },
