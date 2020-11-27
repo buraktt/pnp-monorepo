@@ -5130,10 +5130,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:3.1.5"
       ],
       [
-        "typescript",
-        "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730"
-      ],
-      [
         "underscore",
         "npm:1.12.0"
       ],
@@ -5513,8 +5509,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/pnpify", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.3.3"],
             ["eslint", "npm:7.14.0"],
             ["prettier", "npm:2.2.0"],
-            ["standard", "npm:16.0.3"],
-            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730"]
+            ["standard", "npm:16.0.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -10726,7 +10721,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.14.0"],
             ["lodash", "npm:4.17.20"],
             ["tslib", "npm:1.14.1"],
-            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730"]
+            ["typescript", null]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -22595,8 +22590,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/pnpify", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.3.3"],
             ["eslint", "npm:7.14.0"],
             ["prettier", "npm:2.2.0"],
-            ["standard", "npm:16.0.3"],
-            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730"]
+            ["standard", "npm:16.0.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -24405,15 +24399,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["typedarray-to-buffer", "npm:3.1.5"],
             ["is-typedarray", "npm:1.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["typescript", [
-        ["patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730", {
-          "packageLocation": "./.yarn/cache/typescript-patch-c1223b1b1d-001ab09bb8.zip/node_modules/typescript/",
-          "packageDependencies": [
-            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730"]
           ],
           "linkType": "HARD",
         }]
