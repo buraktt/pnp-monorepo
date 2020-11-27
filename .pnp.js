@@ -27,6 +27,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:app"
       },
       {
+        "name": "backend",
+        "reference": "workspace:backend"
+      },
+      {
         "name": "@monorepo/config",
         "reference": "workspace:packages/config"
       },
@@ -46,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@monorepo/logic", ["virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#workspace:packages/logic", "workspace:packages/logic"]],
       ["@monorepo/ui", ["virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#workspace:packages/ui", "workspace:packages/ui"]],
       ["app", ["workspace:app"]],
+      ["backend", ["workspace:backend"]],
       ["root-workspace-0b6124", ["workspace:."]]
     ],
     "fallbackPool": [
@@ -1340,6 +1345,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [
         "babylon",
         "npm:6.18.0"
+      ],
+      [
+        "backend",
+        "workspace:backend"
       ],
       [
         "balanced-match",
@@ -11732,6 +11741,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babylon", "npm:6.18.0"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["backend", [
+        ["workspace:backend", {
+          "packageLocation": "./backend/",
+          "packageDependencies": [
+            ["backend", "workspace:backend"],
+            ["@monorepo/config", "workspace:packages/config"],
+            ["eslint", "npm:7.14.0"],
+            ["eslint-config-prettier", "virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#npm:6.15.0"],
+            ["eslint-config-standard", "virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#npm:16.0.2"],
+            ["eslint-import-resolver-node", "npm:0.3.4"],
+            ["eslint-plugin-import", "virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#npm:2.22.1"],
+            ["eslint-plugin-jest", "virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#npm:24.1.3"],
+            ["eslint-plugin-node", "virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#npm:11.1.0"],
+            ["eslint-plugin-prettier", "virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#npm:3.1.4"],
+            ["eslint-plugin-promise", "npm:4.2.1"],
+            ["express", "npm:4.17.1"],
+            ["prettier", "npm:2.2.0"],
+            ["standard", "npm:16.0.3"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["balanced-match", [
