@@ -1,6 +1,6 @@
 import React from 'react'
-import ColoredTitle from '@monorepo/logic/ColoredTitle/ColoredTitle'
+import Home from './components/Home/Home'
 
 export default function App() {
-  return <ColoredTitle title="Secondary Title" />
+  return <Home />
 }
