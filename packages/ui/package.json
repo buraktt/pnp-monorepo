@@ -1,6 +1,9 @@
 {
   "name": "@monorepo/ui",
   "version": "0.0.1",
+  "scripts": {
+    "test": "jest"
+  },
   "peerDependencies": {
     "@date-io/date-fns": "*",
     "@material-ui/core": "*",
@@ -10,7 +13,14 @@
     "react-refresh": "*"
   },
   "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.7",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@material-ui/core": "*",
     "@monorepo/config": "workspace:*",
+    "@monorepo/mocks": "workspace:*",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.7",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
@@ -23,7 +33,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.5",
+    "jest": "26.6.3",
     "prettier": "^2.2.0",
+    "react": "16.13.1",
     "standard": "^16.0.3"
   }
 }

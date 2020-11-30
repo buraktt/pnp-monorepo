@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title /> should render without errors 1`] = `
+<DocumentFragment>
+  <h1
+    class="MuiTypography-root MuiTypography-h1 MuiTypography-colorPrimary"
+  >
+    Title test
+  </h1>
+</DocumentFragment>
+`;
