@@ -1678,6 +1678,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@date-io/core@npm:^2.10.6":
+  version: 2.10.6
+  resolution: "@date-io/core@npm:2.10.6"
+  checksum: 35175419cee80484d1e39052588cff3c4338d38f0ad1a9ac30c1901865a4ae07ef5fa7b987f929a16560a2d0f02aa12887966486bb243027d99c04f704223bae
+  languageName: node
+  linkType: hard
+
+"@date-io/date-fns@npm:*":
+  version: 2.10.6
+  resolution: "@date-io/date-fns@npm:2.10.6"
+  dependencies:
+    "@date-io/core": ^2.10.6
+  peerDependencies:
+    date-fns: ^2.0.0
+  checksum: d287b7233fe741ee024fc24f10d2c0d15a25af2d6e9fa18d5630bf8ef64430eb646923557cccee36065d5304d2a6bb62a5324d55e4b4f264b669e56191934fe5
+  languageName: node
+  linkType: hard
+
 "@date-io/date-fns@npm:1.3.13":
   version: 1.3.13
   resolution: "@date-io/date-fns@npm:1.3.13"
@@ -2138,7 +2156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@material-ui/pickers@npm:3.2.10":
+"@material-ui/pickers@npm:*, @material-ui/pickers@npm:3.2.10":
   version: 3.2.10
   resolution: "@material-ui/pickers@npm:3.2.10"
   dependencies:
@@ -2279,12 +2297,15 @@ __metadata:
     "@babel/plugin-transform-react-jsx": ^7.12.7
     "@babel/preset-env": ^7.12.7
     "@babel/preset-react": ^7.12.7
+    "@date-io/date-fns": "*"
     "@material-ui/core": "*"
+    "@material-ui/pickers": "*"
     "@monorepo/config": "workspace:*"
     "@monorepo/mocks": "workspace:*"
     "@testing-library/jest-dom": ^5.11.2
     "@testing-library/react": ^10.4.7
     babel-eslint: ^10.1.0
+    date-fns: "*"
     eslint: ^7.14.0
     eslint-config-prettier: ^6.15.0
     eslint-config-standard: ^16.0.2
@@ -7343,7 +7364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:2.16.1":
+"date-fns@npm:*, date-fns@npm:2.16.1":
   version: 2.16.1
   resolution: "date-fns@npm:2.16.1"
   checksum: fbe5d9aa1dc4c92c7cf9c0b31e58f532ac9fe059f85fc622641b1ac9c673150329620ea6bf941a8ba10e8e677aa0b6ccdc04ce001f81e70fd49acd1760edcba0
