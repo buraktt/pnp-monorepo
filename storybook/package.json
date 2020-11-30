@@ -1,16 +1,27 @@
 {
-  "name": "@monorepo/ui",
+  "name": "storybook",
   "version": "0.0.1",
-  "peerDependencies": {
-    "@date-io/date-fns": "*",
-    "@material-ui/core": "*",
-    "@material-ui/pickers": "*",
-    "date-fns": "*",
-    "react": "*",
-    "react-refresh": "*"
+  "scripts": {
+    "storybook": "start-storybook -p 9009 -s public"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "1.3.13",
+    "@material-ui/core": "4.11.1",
+    "@material-ui/pickers": "3.2.10",
+    "@monorepo/logic": "workspace:*",
+    "@monorepo/ui": "workspace:*",
+    "core-js": "^3.8.0",
+    "date-fns": "2.16.1",
+    "history": "^5.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-refresh": "0.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1"
   },
   "devDependencies": {
     "@monorepo/config": "workspace:*",
+    "@storybook/react": "^6.1.9",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
