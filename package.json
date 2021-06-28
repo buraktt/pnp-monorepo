@@ -4,6 +4,7 @@
     "packages": [
       "app",
       "backend",
+      "nextapp",
       "storybook",
       "packages/*"
     ]
